@@ -1,3 +1,93 @@
-h1 {
-  background-color: aqua;
+body {
+  background-image: linear-gradient(
+    to right,
+    #3ab5b0 0%,
+    #3d99be 31%,
+    #56317a 100%
+  );
+  background-size: cover;
+  margin: 0px;
+  height: 100%;
+}
+
+.qwe {
+  display: flex;
+  justify-content: space-around;
+}
+
+.QQQ {
+  justify-content: center;
+  display: flex;
+}
+.QQQ button {
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  padding-bottom: 40px;
+  margin: 5px;
+  margin-top: 40px;
+  border-radius: 4px;
+  width: auto;
+  height: 10px;
+  border: 2px solid #ffffff;
+  font-size: 24px;
+  font-family: "Amatic SC", cursive;
+}
+
+.QQQ button a {
+  text-decoration: none;
+  color: white;
+}
+.tit {
+  color: white;
+  font-size: 40px;
+  font-family: "Amatic SC", cursive;
+}
+
+.home {
+  color: white;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 70px;
+  margin-top: 170px;
+}
+
+.home h5 {
+  color: white;
+  font-size: 50px;
+}
+.titleabout {
+  margin-top: 200px;
+  color: white;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 60px;
+  text-align: center;
+}
+.about {
+  display: inline-flex;
+  margin-left: 200px;
+  height: 100%;
+}
+.about h1 {
+  text-align: center;
+  color: white;
+  font-family: "Amatic SC", cursive;
+  font-size: 60px;
+}
+
+.about img {
+  border-radius: 200px;
+  height: 250px;
+  margin-left: 250px;
+  margin-top: 30px;
+}
+
+.about p {
+  margin-left: 300px;
+  width: 500px;
+  font-size: 23px;
+  text-align: center;
+  color: white;
+  font-family: cursive;
 }
