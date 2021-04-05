@@ -15,11 +15,11 @@ body {
   justify-content: space-around;
 }
 
-.QQQ {
+.qqq {
   justify-content: center;
   display: flex;
 }
-.QQQ button {
+.qqq button {
   background-color: transparent;
   color: white;
   padding: 10px;
@@ -34,7 +34,7 @@ body {
   font-family: "Amatic SC", cursive;
 }
 
-.QQQ button a {
+.qqq button a {
   text-decoration: none;
   color: white;
 }
@@ -50,6 +50,7 @@ body {
   font-family: "Amatic SC", cursive;
   font-size: 70px;
   margin-top: 170px;
+  height: 100%;
 }
 
 .home h5 {
@@ -65,9 +66,10 @@ body {
   text-align: center;
 }
 .about {
-  display: inline-flex;
+  display: flex;
   margin-left: 200px;
   height: 100%;
+  justify-content: space-around;
 }
 .about h1 {
   text-align: center;
@@ -79,15 +81,34 @@ body {
 .about img {
   border-radius: 200px;
   height: 250px;
-  margin-left: 250px;
+
   margin-top: 30px;
 }
 
 .about p {
-  margin-left: 300px;
+  margin-left: 10%;
   width: 500px;
   font-size: 23px;
   text-align: center;
   color: white;
   font-family: cursive;
+}
+
+.portafolio {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.164) 0%,
+    rgba(237, 243, 251, 0.253) 100%
+  );
+  border-radius: 20px;
+  height: 600px;
+  margin: 10%;
+}
+.titlep {
+  color: white;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 60px;
+  text-align: center;
 }
