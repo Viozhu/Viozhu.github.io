@@ -137,6 +137,7 @@ body {
   .about p {
     max-width: 100%;
     justify-content: center;
+    font-family: "Berlin", cursive;
   }
 
   .about img {
