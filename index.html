@@ -16,9 +16,11 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
       rel="stylesheet"
     />
+
+    <script src="/index.js" defer></script>
   </head>
   <body>
-    <a name="home"></a>
+    <a name="home" ></a>
     <nav class="sss">
       <div class="qwe">
         <h1 class="tit">Jorge Ignacio Garay</h1>
@@ -59,10 +61,132 @@
       <div class="titlep">
         <p>Portafolio</p>
       </div>
+     
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+       
+        <div class="mySlides fade" style='display: active'>
+          <a href='http://www.google.com'>
+          <img class='imagen' src="foto0.jpg" />
+          <div class="text">Be your Own Chef ~ Made with React, Redux, Js , Express, Sequelize - Postgres, CSS and HTML</div></a>
+        </div>
+
+        <div class="mySlides fade">
+          <a href='http://www.google.com'>
+          <img class='imagen' src="Foto2.JPG"  />
+          <div class="text">Be your Own Chef ~ Made with React, Redux, Js , Express, Sequelize - Postgres, CSS and HTML</div>
+       
+      </div>
+      <div class="mySlides fade">
+        <a href='http://www.google.com'>
+        <img class='imagen' src="weatherapp.JPG" />
+        <div class="text">Weather App ~ Made with React, Api, Js , CSS and HTML</div> </a>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    
+      </div></div>
     </div>
     <!--  skills -->
-    <div><a name="skills"></a></div>
+    <div class='skills'>
+      <a name="skills"></a>
+      <div class="titlep">
+        <p>Skills</p>
+        <hr>
+        <br>
+        <div class='iconos'>
+          
+          <div style='margin-right: 5rem; '>
+            <img class='icono' src="/Iconos/javascript (1).png">
+            <p style='font-size: 45px; margin: 0.5rem;'>Javascript</p>
+          </div>
+          <div style='margin-right: 5rem;'>
+            <img class='icono' src="/Iconos/react.png">
+            <p style='font-size: 45px; margin: 0.5rem;'>React</p>
+          </div>
+          <div style='margin-right: 5rem;'>
+            <img class='icono' src="/Iconos/redux.png">
+            <p style='font-size: 45px; margin: 0.5rem;'>Redux</p>
+          </div>
+          <div style='margin-right: 5rem;'>
+            <img class='icono' src="/Iconos/git.png">
+            <p style='font-size: 45px; margin: 0.5rem;'>Git</p>
+          </div>
+          <div style='margin-right: 5rem;'>
+            <img class='icono' src="/Iconos/github.png">
+            <p style='font-size: 45px; margin: 0.5rem;'>Github</p>
+          </div>
+          <div style='margin-right: 5rem;'>
+            <img class='icono' src="/Iconos/adobe-photoshop.png">
+            <p style='font-size: 45px; margin: 0.5rem;'>Photoshop</p>
+          </div>
+          
+          
+        </div>
+        <div class='iconos'>
+          
+          <div style='margin-right: 5rem;'>
+            <img class='icono' src="/Iconos/nodejs.png">
+            <p style='font-size: 45px;  margin: 0.5rem;'>NodeJs</p>
+          </div>
+          <div style='margin-right: 5rem;'>
+            <img class='icono' src="/Iconos/express.png">
+            <p style='font-size: 45px;  margin: 0.5rem;'>Express</p>
+          </div>
+          <div style='margin-right: 5rem;'>
+            <img class='icono' src="/Iconos/bootstrap.png">
+            <p style='font-size: 45px;  margin: 0.5rem;'>Bootstrap</p>
+          </div>
+          <div style='margin-right: 5rem;'>
+            <img class='icono' src="/Iconos/sequelize.png">
+            <p style='font-size: 45px;  margin: 0.5rem;'>Sequelize</p>
+          </div>
+          <div style='margin-right: 5rem;'>
+            <img class='icono' src="/Iconos/html5.png">
+            <p style='font-size: 45px;  margin: 0.5rem;'>Html</p>
+          </div>
+          <div style='margin-right: 5rem;'>
+            <img class='icono' src="/Iconos/css3.png">
+            <p style='font-size: 45px;  margin: 0.5rem;'>CSS</p>
+          </div>
+      
+        </div>
+  
+      </div>
+    </div>
+    <br>
+    
     <!--  Contact -->
-    <div><a name="contact"></a></div>
+    <div style="margin-top: 6rem;" class='contact'><a name="contact"></a>
+      <div class="titlep">
+        <p>Contact Me</p>
+        <hr>
+        <div class='iconos'>
+          <div style='margin-right: 5rem;'>
+            <a href='https://mail.google.com/a/?view=cm&fs=1&to=garayjorgeignacio@gmail.com'>
+            <img class='icono' src="/Iconos/gmail.png">
+           </a>
+          </div>
+          <div style='margin-right: 5rem;'>
+            <a href='https://www.linkedin.com/in/jorgeignaciogaray/'>
+            <img class='icono' src="/Iconos/linkedin.png"></a>
+          </div>
+          <div style='margin-right: 5rem;'>
+            <a href='https://wa.me/5493434592663?text=Hi!%20I%20saw%20your%20portafolio'>
+            <img class='icono' src="/Iconos/whatsapp.png"></a>
+          </div>
+          <div style='margin-right: 5rem;'>
+            <a href='https://github.com/Viozhu'>
+            <img class='icono' src="/Iconos/github (1).png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
